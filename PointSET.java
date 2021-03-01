@@ -69,7 +69,8 @@ public class PointSET {
         if (treeSet.isEmpty())
             return null;
         List<Node> list = treeSet.stream()
-                .map(current -> new Node(current, p)).sorted(new Comparator<Node>() {
+                .map(current -> new Node(current, p))
+                .sorted(new Comparator<Node>() {
                     @Override
                     public int compare(Node o1, Node o2) {
                         return Double.compare(o1.distanceToSearchPoint, o2.distanceToSearchPoint);

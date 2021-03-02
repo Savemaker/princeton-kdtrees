@@ -16,5 +16,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="algs4" level="project" />
     <orderEntry type="library" name="checkstyle-lift" level="project" />
+    <orderEntry type="library" name="algs4" level="project" />
+    <orderEntry type="library" name="checkstyle-lift" level="project" />
   </component>
 </module>
